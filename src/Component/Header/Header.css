@@ -1,4 +1,13 @@
+.Carousel img{
+    height: 425px;
+    border-radius: 30px;
+}
 .Carousel{
-    height: 50px;
-    width: 80%;
+    border-radius: 30px;
+    padding: 5px;
+    box-shadow: 5px 10px 40px 10px tomato;
+    background-color: white;
+    margin-top: 10px;
+    margin-left: 12%;
+    width: 1000px;
 }

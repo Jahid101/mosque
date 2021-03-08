@@ -12,7 +12,7 @@ import Start from './Component/Start/Start';
 function App() {
 
   return (
-    <Router>
+    <Router >
       <Switch>
         <Route exact path="/">
           <Start></Start>

@@ -8,7 +8,8 @@ import './Header.css';
 const Header = () => {
 
     return (
-            <Carousel className = "Carousel">
+        <div className="Carousel">
+            <Carousel >
                 <Carousel.Item interval={1000}>
                     <img
                         className="d-block w-100"
@@ -43,6 +44,7 @@ const Header = () => {
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>
+        </div>
     );
 };
 
