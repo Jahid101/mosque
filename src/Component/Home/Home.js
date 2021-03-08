@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import NavBar from '../NavBar/NavBar';
 import Header from '../Header/Header';
 import './Home.css'
+import MidBody from '../MidBody/MidBody';
 
 const Home = () => {
 
@@ -13,6 +14,7 @@ const Home = () => {
             <div className="body">
             <Header></Header>
             </div>
+            <MidBody></MidBody>
         </div >
     );
 };
